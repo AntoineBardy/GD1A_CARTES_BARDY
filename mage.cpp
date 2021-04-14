@@ -12,7 +12,7 @@ Mage::Mage(): _name("Mage"), _hp(30){
 
 }
 
-void Mage::printStat(){
+void Mage::Affichage(){
     std::cout << "Name: " << _name << " || Hp: " << _hp  << std::endl << "Board:" << std::endl;
     for (int i = 0; i < _board.size(); i++){
         _board[i].Affichage();
