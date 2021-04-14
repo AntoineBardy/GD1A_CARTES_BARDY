@@ -1,3 +1,8 @@
+#include <string>
+#include <vector>
+#include <iostream>
+#include "monstre.cpp"
+
 using namespace std;
 
 int main(){
@@ -11,7 +16,7 @@ int main(){
     Minotaure.Attaque(Kappa);
 
     Kappa.Affichage();
-    Minotaure.Affiche();
+    Minotaure.Affichage();
 
     return 0;
 }
