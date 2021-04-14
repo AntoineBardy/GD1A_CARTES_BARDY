@@ -1,13 +1,12 @@
-#include string
-
-using namespace std;
-
+#include <string>
+#include <vector>
+#include <iostream>
 class Monstre
 {
     public:
 
     Monstre();
-    Monstre(string nom, int pv, int degats, bool etat);
+    Monstre(std::string nom, int pv, int degats, bool etat);
     void Affichage ();
     void Attaque(Monstre&ennemis);
     void priseDegats (int nbDegats);
@@ -15,7 +14,7 @@ class Monstre
 
     private:
 
-    string nomM;
+    std::string nomM;
     int hp;
     int atq;
     bool currentState;
