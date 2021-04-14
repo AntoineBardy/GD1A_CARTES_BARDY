@@ -6,21 +6,21 @@
 #include <string>
 #include <vector>
 
-Mage::Mage(): _name("Mage"), _hp(30){
+Mage::Mage(): nomMage("Mage"), hpMage(35){
     Monstre test = Monstre();
-    _board.push_back(test);
+    board.push_back(test);
 
 }
 
 void Mage::Affichage(){
-    std::cout << "Name: " << _name << " || Hp: " << _hp  << std::endl << "Board:" << std::endl;
-    for (int i = 0; i < _board.size(); i++){
-        _board[i].Affichage();
+    std::cout << "Name: " << nomMage << " || Hp: " << hpMage  << std::endl << "Board:" << std::endl;
+    for (int i = 0; i < board.size(); i++){
+        board[i].Affichage();
     }
 }
 
 void Mage::ajoutMonstre(Monstre monster){
-    _board.push_back(monster);
+    board.push_back(monster);
 }
 
 
