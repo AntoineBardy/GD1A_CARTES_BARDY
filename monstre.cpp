@@ -40,5 +40,5 @@ void Monstre::priseDegats (int nbDegats){
 }
 
 int Monstre::getDegats() const{
-    
+    return atq;
 }
