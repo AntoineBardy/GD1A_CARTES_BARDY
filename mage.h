@@ -15,7 +15,7 @@ class Mage{
 
     public:
         Mage();
-        void printStat();
+        void Affichage();
         void ajoutMonstre(Monstre monstre);
         void suprimerMonstre();
 
