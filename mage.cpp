@@ -19,8 +19,8 @@ void Mage::Affichage(){
     }
 }
 
-void Mage::ajoutMonstre(Monstre monster){
-    board.push_back(monster);
+void Mage::ajoutMonstre(Monstre Monstre){
+    board.push_back(Monstre);
 }
 
 
