@@ -9,9 +9,9 @@
 class Mage{
 
     private:
-        std::string _name;
-        int _hp;
-        std::vector<Monstre> _board;
+        std::string nomMage;
+        int hpMage;
+        std::vector<Monstre> board;
 
     public:
         Mage();
